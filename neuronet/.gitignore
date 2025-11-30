@@ -1,0 +1,56 @@
+# NeuroNet - Git Ignore
+
+# Archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Archivos de compilación de C++/Cython
+*.o
+*.obj
+*.cpp.o
+*.c
+build/
+*.egg-info/
+dist/
+
+# Archivos generados por Cython
+src/cython/*.c
+src/cython/*.cpp
+grafo_wrapper.*.so
+grafo_wrapper.*.pyd
+
+# Datasets grandes
+datasets/*.gz
+datasets/web-Google.txt
+datasets/amazon*.txt
+datasets/roadNet*.txt
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
+
+# Matplotlib
+*.png
+*.jpg
+*.pdf
